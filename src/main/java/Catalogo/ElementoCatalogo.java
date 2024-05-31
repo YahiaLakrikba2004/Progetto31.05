@@ -46,6 +46,17 @@ public class  ElementoCatalogo {
     }
 
 
+    public String toFileString() {
+        return "ElementoCatalogo{" +
+                "codiceISBN='" + codiceISBN + '\'' +
+                ", titolo='" + titolo + '\'' +
+                ", annoPubblicazione=" + annoPubblicazione +
+                ", numeroPagine=" + numeroPagine +
+                '}';
+    }
+
+
+
 }
 
 

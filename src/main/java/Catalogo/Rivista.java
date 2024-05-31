@@ -19,4 +19,10 @@ public class Rivista extends ElementoCatalogo {
     public void setPeriodicita(Periodicita periodicita) {
         this.periodicita = periodicita;
     }
+
+
+    @Override
+    public String toFileString() {
+        return "RIVISTA," + getCodiceISBN() + "," + getTitolo() + "," + getAnnoPubblicazione() + "," + getNumeroPagine() + "," + periodicita;
+    }
 }
