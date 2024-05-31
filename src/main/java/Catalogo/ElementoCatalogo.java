@@ -1,12 +1,12 @@
-package Biblioteca;
+package Catalogo;
 
-public abstract class  ElementoCatalogo {
+public class  ElementoCatalogo {
     private String codiceISBN;
     private String titolo;
     private int annoPubblicazione;
-    private  int numeroPagine;
+    private int numeroPagine;
 
-    public ElementoCatalogo(String codiceISBN, String titolo, int annoPubblicazione, int numeroPagine) {
+    public ElementoCatalogo(String titolo, String codiceISBN, int numeroPagine, int annoPubblicazione) {
         this.codiceISBN = codiceISBN;
         this.titolo = titolo;
         this.annoPubblicazione = annoPubblicazione;
@@ -44,4 +44,8 @@ public abstract class  ElementoCatalogo {
     public void setNumeroPagine(int numeroPagine) {
         this.numeroPagine = numeroPagine;
     }
+
+
 }
+
+
