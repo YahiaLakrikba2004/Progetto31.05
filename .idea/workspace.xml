@@ -5,9 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4f3a3328-7c18-4c71-9058-92283ce8e8dc" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/Archivio/GestoreArchivio.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Archivio/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Archivio/GestoreArchivio.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Archivio/GestoreArchivio.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Catalogo/ElementoCatalogo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Catalogo/ElementoCatalogo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Catalogo/Libro.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Catalogo/Libro.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Catalogo/Rivista.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Catalogo/Rivista.java" afterDir="false" />
@@ -48,14 +48,15 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.Main.executor": "Run",
+    "Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "master",
+    "kotlin-language-version-configured": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="ExtractSuperBase.RECENT_KEYS">
       <recent name="Catalogo" />

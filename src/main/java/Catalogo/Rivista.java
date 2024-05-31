@@ -2,7 +2,7 @@ package Catalogo;
 
 public class Rivista extends ElementoCatalogo {
     public enum Periodicita {
-        Semestrale, Mensile, Settimanale
+        Semestrale, Mensile, MENSILE, Settimanale
     }
 
     private Periodicita periodicita;
@@ -22,7 +22,9 @@ public class Rivista extends ElementoCatalogo {
 
 
     @Override
-    public String toFileString() {
-        return "RIVISTA," + getCodiceISBN() + "," + getTitolo() + "," + getAnnoPubblicazione() + "," + getNumeroPagine() + "," + periodicita;
+    public String toString() {
+        return  "codiceISBN=" + getCodiceISBN() + ", titolo=" + getTitolo() +
+                ", annoPubblicazione=" + getAnnoPubblicazione() + ", numeroPagine=" + getNumeroPagine() +
+                ", periodicita=" + periodicita;
     }
 }

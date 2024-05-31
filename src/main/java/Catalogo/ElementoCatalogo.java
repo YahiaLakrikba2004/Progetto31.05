@@ -1,5 +1,7 @@
 package Catalogo;
 
+import java.util.Objects;
+
 public class  ElementoCatalogo {
     private String codiceISBN;
     private String titolo;
@@ -46,14 +48,12 @@ public class  ElementoCatalogo {
     }
 
 
-    public String toFileString() {
-        return "ElementoCatalogo{" +
-                "codiceISBN='" + codiceISBN + '\'' +
-                ", titolo='" + titolo + '\'' +
-                ", annoPubblicazione=" + annoPubblicazione +
-                ", numeroPagine=" + numeroPagine +
-                '}';
+    @Override
+    public String toString() {
+        return "codiceISBN=" + codiceISBN + ", titolo=" + titolo +
+                ", annoPubblicazione=" + annoPubblicazione + ", numeroPagine=" + numeroPagine;
     }
+
 
 
 

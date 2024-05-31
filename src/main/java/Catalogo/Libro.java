@@ -29,7 +29,10 @@ public class Libro extends ElementoCatalogo {
     }
 
     @Override
-    public String toFileString() {
-        return "LIBRO," + getCodiceISBN() + "," + getTitolo() + "," + getAnnoPubblicazione() + "," + getNumeroPagine() + "," + autore + "," + genere;
+    public String toString() {
+        return "codiceISBN=" + getCodiceISBN() + ", titolo=" + getTitolo() +
+                ", annoPubblicazione=" + getAnnoPubblicazione() + ", numeroPagine=" + getNumeroPagine() +
+                ", autore=" + autore + ", genere=" + genere;
     }
+
 }

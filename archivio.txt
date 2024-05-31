@@ -1,0 +1,4 @@
+codiceISBN=1984, titolo=456789, annoPubblicazione=328, numeroPagine=1949, autore=George Orwell, genere=Distopia
+codiceISBN=987654, titolo=Scientific American, annoPubblicazione=2023, numeroPagine=80, periodicita=MENSILE
+codiceISBN=Cronache del ghiaccio e del fuoco, titolo=321654, annoPubblicazione=694, numeroPagine=1996, autore=George R. R. Martin, genere=Fantasy
+codiceISBN=456123, titolo=Wired, annoPubblicazione=2022, numeroPagine=184, periodicita=MENSILE
